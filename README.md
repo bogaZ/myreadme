@@ -3,8 +3,9 @@ https://refactory.sev-2.com/diffusion/196/history/feat%252FT68213/
 
 ## Description
 <!-- Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change. -->
+Revamp the position of dark mode toggle to the bottom left to make the toggle is not floating when the resolution on minimize mode
 
-[T00000](https://refactory.sev-2.com/T00000): Implement and integration of service foo & bar  
+[T68213](https://refactory.sev-2.com/diffusion/196/browse/feat%252FT68213/): make the toggle is not floating when the resolution on minimize mode  
 
 <!-- Explain your changes here:  -->
 - Changing global helper in Bar.kt 
