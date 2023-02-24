@@ -7,12 +7,12 @@ Create user_roles table and move the column or field customRoles on user tables 
 
 [T68307](https://refactory.sev-2.com/diffusion/196/repository/feat%252FT68307/): move roles on user table to the new user_roles table and make edges relationship
 
-- 20230217.add_user_roles.sql
+- Add new .sql file 20230217.add_user_roles.sql
 - Create MySQL Query to create new table user_roles and add column user_rolesPHID on table user in 20230217.add_user_roles.sql
 - Running MySQL Query on 20230217.add_user_roles.sql with ./storage upgrade --force to add this table to database
-- add class for represent the new user_roles table, file name is PhabricatorUserRoles.php
-- add edgesUserRoles() function on class PhabricatorUser.php to make edges relationship betwen PhabricatorUser and PhabricatorUserRoles
-- add getCustomRoles() function on class PhabricatorUser.php to get roles on user_roles table where this table has relation with user_roles table
+- Add class for represent the new user_roles table, file name is PhabricatorUserRoles.php
+- Add edgesUserRoles() function on class PhabricatorUser.php to make edges relationship betwen PhabricatorUser and PhabricatorUserRoles
+- Add getCustomRoles() function on class PhabricatorUser.php to get roles on user_roles table where this table has relation with user_roles table
 
 ## Type of change
 
