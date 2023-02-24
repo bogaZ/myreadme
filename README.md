@@ -40,4 +40,5 @@ Kurirmoo, Biofarma, Sev2, Recre.
 Link video:
 - 
 Step to reproduce:
--
+- Open Home of Sev2 on minimize mode
+- Check the dark mode toggle when you change resolution
