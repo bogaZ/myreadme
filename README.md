@@ -7,15 +7,19 @@ Create user_roles table and move the column or field customRoles on user tables 
 
 [T68307](https://refactory.sev-2.com/diffusion/196/repository/feat%252FT68307/): move roles on user table to the new user_roles table and make edges relationship
 
-- Changing offset properties from bottom to top in class .dark-mode-toggle-container on dark-mode-toggle.css 
-- Add value offset bottom 455 px in class .dark-mode-toggle-container on dark-mode-toggle.css
+- 20230217.add_user_roles.sql
+- Create MySQL Query to create new table user_roles and add column user_rolesPHID on table user in 20230217.add_user_roles.sql
+- Running MySQL Query on 20230217.add_user_roles.sql with ./storage upgrade --force to add this table to database
+- add class for represent the new user_roles table, file name is PhabricatorUserRoles.php
+- add edgesUserRoles() function on class PhabricatorUser.php to make edges relationship betwen PhabricatorUser and PhabricatorUserRoles
+- add getCustomRoles() function on class PhabricatorUser.php to get roles on user_roles table where this table has relation with user_roles table
 
 ## Type of change
 
-- [x] Bug fix (non-breaking change which fixes an issue)
+- [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking changes/Refactor (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Increase Unit Testing Coverage
+- [x] Increase Unit Testing Coverage
 
 ## Completion Requirement:
 
@@ -35,5 +39,4 @@ Kurirmoo, Biofarma, Sev2, Recre.
 Link video:
 - 
 Step to reproduce:
-- Open Home of Sev2 app on minimize mode
-- Check the dark mode toggle when you change resolution
+- GOTO Sev2 App/ desktop
