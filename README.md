@@ -23,13 +23,13 @@ Revamp the position of dark mode toggle to the bottom left to make the toggle is
 
 <!-- Requirement for marking ticket as done ( all checklist must be performed )   -->
 
-- [ ] I don't put any sensitive information or credentials information(password, token, secret, etc.) in the commit and pull request
-- [ ] My code or changes follows the style guidelines of this project
-- [ ] I have performed a self-review of my own code or changes
-- [ ] I have commented/documented my code or changes
-- [ ] I have checked my code and corrected any misspellings
-- [ ] I have performed integration test with current branch/configuration/design and have verify everything works without conflict
-- [ ] I have notify my lead or manager that i will merge my changes 
+- [x] I don't put any sensitive information or credentials information(password, token, secret, etc.) in the commit and pull request
+- [x] My code or changes follows the style guidelines of this project
+- [x] I have performed a self-review of my own code or changes
+- [x] I have commented/documented my code or changes
+- [x] I have checked my code and corrected any misspellings
+- [x] I have performed integration test with current branch/configuration/design and have verify everything works without conflict
+- [x] I have notify my lead or manager that i will merge my changes 
 
 *If this project managed by Refactory after completing all above list you must proceed with merging or apply your changes*
 Kurirmoo, Biofarma, Sev2, Recre.
