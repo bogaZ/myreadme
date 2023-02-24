@@ -13,6 +13,7 @@ Create user_roles table and move the column or field customRoles on user tables 
 - Add class for represent the new user_roles table, file name is PhabricatorUserRoles.php
 - Add edgesUserRoles() function on class PhabricatorUser.php to make edges relationship betwen PhabricatorUser and PhabricatorUserRoles
 - Add getCustomRoles() function on class PhabricatorUser.php to get roles on user_roles table where this table has relation with user table
+- Call edgesUserRoles() function if getCustomRoles() to be called
 
 ## Type of change
 
