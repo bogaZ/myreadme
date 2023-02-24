@@ -8,8 +8,8 @@ Revamp the position of dark mode toggle to the bottom left to make the toggle is
 [T68213](https://refactory.sev-2.com/diffusion/196/browse/feat%252FT68213/): make the toggle is not floating when the resolution on minimize mode  
 
 <!-- Explain your changes here:  -->
-- Changing offset from bottom to top in dark-mode-toggle.css 
-- Add value offset bottom 455 px
+- Changing offset properties from bottom to top in class .dark-mode-toggle-container on dark-mode-toggle.css 
+- Add value offset bottom 455 px in class .dark-mode-toggle-container on dark-mode-toggle.css
 
 ## Type of change
 <!-- Please checks [x] only to options that are relevant. -->
