@@ -8,14 +8,13 @@ Revamp the position of dark mode toggle to the bottom left to make the toggle is
 [T68213](https://refactory.sev-2.com/diffusion/196/browse/feat%252FT68213/): make the toggle is not floating when the resolution on minimize mode  
 
 <!-- Explain your changes here:  -->
-- Changing global helper in Bar.kt 
-- Simplify code conditional in file Foo.kt
-- Adding new constant for color.xml
+- Changing offset from bottom to top in dark-mode-toggle.css 
+- Add value offset bottom 455 px
 
 ## Type of change
 <!-- Please checks [x] only to options that are relevant. -->
 
-- [ ] Bug fix (non-breaking change which fixes an issue)
+- [x] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
 - [ ] Breaking changes/Refactor (fix or feature that would cause existing functionality to not work as expected)
 - [ ] Increase Unit Testing Coverage
