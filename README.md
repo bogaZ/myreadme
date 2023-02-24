@@ -1,11 +1,11 @@
 ## PR Link
-https://refactory.sev-2.com/diffusion/196/history/feat%252FT68213/
+https://refactory.sev-2.com/diffusion/196/history/feat%252FT68307/
 
 ## Description
 
-Revamp the position of dark mode toggle to the bottom left to make the toggle is not floating when the resolution on minimize mode
+Create user_roles table and move the column or field customRoles on user tables to user_roles table and make edges relationship between user and user_roles table
 
-[T68213](https://refactory.sev-2.com/diffusion/196/browse/feat%252FT68213/): make the toggle is not floating when the resolution on minimize mode  
+[T68307](https://refactory.sev-2.com/diffusion/196/repository/feat%252FT68307/): move roles on user table to the new user_roles table and make edges relationship
 
 - Changing offset properties from bottom to top in class .dark-mode-toggle-container on dark-mode-toggle.css 
 - Add value offset bottom 455 px in class .dark-mode-toggle-container on dark-mode-toggle.css
