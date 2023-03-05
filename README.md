@@ -1,5 +1,6 @@
 ## PR Link
-https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/
+
+[Ticket Link](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/)
 
 ## Description
 
@@ -42,5 +43,6 @@ Kurirmoo, Biofarma, Sev2, Recre.
 
 Link foto:
 - [Screenshoot View Data Rute]()
+
 Step to reproduce:
 - [Go to menu Konfigurasi -> Data Rute](http://localhost:3000/configuration/data-route)
