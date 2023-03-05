@@ -1,6 +1,6 @@
 ## PR Link
 
-[Ticket Link](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/)
+[feat/T69514](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/)
 
 ## Description
 
