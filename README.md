@@ -1,26 +1,29 @@
 ## PR Link
-https://refactory.sev-2.com/diffusion/196/history/feat%252FT68307/
+https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/
 
 ## Description
 
-Create user_roles table and move the column or field customRoles on user tables to user_roles table and make edges relationship between user and user_roles table
+Construct UI CMS for List Table Route using reusable component with column
 
-[T68307](https://refactory.sev-2.com/diffusion/196/repository/feat%252FT68307/): move roles on user table to the new user_roles table and make edges relationship
+- ID Rute
+- Kota Asal
+- Kota Tujuan
+- Jalur
+- Jumlah Kota Dilewati
+- Jarak
+- Aksi
 
-- Add new .sql file 20230217.add_user_roles.sql
-- Create MySQL Query to create new table user_roles and add column user_rolesPHID on table user in 20230217.add_user_roles.sql
-- Running MySQL Query on 20230217.add_user_roles.sql with ./storage upgrade --force to add this table to database
-- Add class for represent the new user_roles table, file name is PhabricatorUserRoles.php
-- Add edgesUserRoles() function on class PhabricatorUser.php to make edges relationship betwen PhabricatorUser and PhabricatorUserRoles
-- Add getCustomRoles() function on class PhabricatorUser.php to get roles on user_roles table where this table has relation with user table
-- Call edgesUserRoles() function if getCustomRoles() to be called
+[T69514](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/): Construct UI CMS for List Table Route using reusable component
+
+- Add route for view table data rute
+- 
 
 ## Type of change
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
+- [x] New feature (non-breaking change which adds functionality)
 - [ ] Breaking changes/Refactor (fix or feature that would cause existing functionality to not work as expected)
-- [x] Increase Unit Testing Coverage
+- [ ] Increase Unit Testing Coverage
 
 ## Completion Requirement:
 
@@ -37,7 +40,7 @@ Kurirmoo, Biofarma, Sev2, Recre.
 
 ## Evidence that show my changes works properly 
 
-Link video:
-- 
+Link foto:
+- [Screenshoot View Data Rute]()
 Step to reproduce:
-- GOTO Sev2 App/ desktop
+- [Go to menu Konfigurasi -> Data Rute](http://localhost:3000/configuration/data-route)
