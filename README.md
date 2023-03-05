@@ -17,7 +17,9 @@ Construct UI CMS for List Table Route using reusable component with column
 [T69514](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/): Construct UI CMS for List Table Route using reusable component
 
 - Add route for view table data rute
-- 
+- Add folder data_rute and make file index.vue for view data rute
+- Import reusable component on view data rute and use them
+- Add Dummy data for column and data of BaseTable Component
 
 ## Type of change
 
