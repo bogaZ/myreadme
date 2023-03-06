@@ -4,7 +4,7 @@
 
 ## Description
 
-Construct UI CMS for List Table Route using reusable component with column
+Construct UI CMS for List Table data route
 
 - ID Rute
 - Kota Asal
@@ -13,8 +13,11 @@ Construct UI CMS for List Table Route using reusable component with column
 - Jumlah Kota Dilewati
 - Jarak
 - Aksi
+- Search Field
+- Buttom Tambah Pengalian
+- using dummy data
 
-[T69514](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT69514/): Construct UI CMS for List Table Route using reusable component
+[T70004](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70004/): Construct UI CMS for List Table Route using reusable component
 
 - Add route for view table data rute
 - Add folder data_rute and make file index.vue for view data rute
