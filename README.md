@@ -17,6 +17,13 @@ Construct UI CMS for List Table data route
 - Buttom Tambah Pengalian
 - using dummy data
 
+### Acceptance Criteria
+
+- UI Must be the same with design
+- Responsive
+- implement pagination
+- implement search table
+
 [T70004](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70004/): Construct UI CMS for List Table Route using reusable component
 
 - Add route for view table data rute
