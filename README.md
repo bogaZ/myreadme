@@ -54,7 +54,7 @@ Kurirmoo, Biofarma, Sev2, Recre.
 ## Evidence that show my changes works properly 
 
 Link foto:
-- [Screenshoot View Data Rute](https://drive.google.com/file/d/1QBy67Xet0ejPf19QA_ggp-RPSM2jHklZ/view?usp=share_link)
+- [Screenshoot View Data Rute](https://drive.google.com/drive/folders/14iK0TVJ1AOszAWDs9erTmsHPgfgQa2uX?usp=share_link)
 
 Step to reproduce:
 - [Go to menu Konfigurasi -> Data Rute](http://localhost:3000/configuration/data-route)
