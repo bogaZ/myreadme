@@ -44,7 +44,9 @@ Link foto:
 
 Step to reproduce:
 - Setup BE Kurirmoo project
-use comand line:
+
+Use comand line:
+
 - make all
 - make run-local
 - check table on database
