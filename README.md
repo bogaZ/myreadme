@@ -1,6 +1,6 @@
 ## PR Link
 
-[feat/T70004](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70004/)
+[feat/T70052](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70052/)
 
 ## Description
 
@@ -12,10 +12,10 @@ This table will be use to relate with table data pengali.
 
 [T70052](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70052/): Create Table for Data Pengalian Dalam Kota
 
-- Add route for view table data rute
-- Add folder data_rute and make file index.vue for view data rute
-- Import reusable component on view data rute and use them
-- Add Dummy data for column and data of BaseTable Component
+- Add definition for model MultiplierInCity on swagger.yml
+- Generate model using comand line : make all
+- Add model on file runtime.go on function autoMigration
+- Migrate table using comand line : make run-local
 
 ## Type of change
 
