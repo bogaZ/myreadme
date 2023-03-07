@@ -4,27 +4,13 @@
 
 ## Description
 
-Construct UI CMS for List Table data route
+Create Table for Data Pengalian Dalam Kota
 
-- ID Rute
-- Kota Asal
-- Kota Tujuan
-- Jalur
-- Jumlah Kota Dilewati
-- Jarak
-- Aksi
-- Search Field
-- Buttom Tambah Pengalian
-- using dummy data
+USECASE
 
-### Acceptance Criteria
+This table will be use to relate with table data pengali.
 
-- UI Must be the same with design
-- Responsive
-- implement pagination
-- implement search table
-
-[T70004](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70004/): Construct UI CMS for List Table Route using reusable component
+[T70052](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70052/): Create Table for Data Pengalian Dalam Kota
 
 - Add route for view table data rute
 - Add folder data_rute and make file index.vue for view data rute
