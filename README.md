@@ -40,7 +40,11 @@ Kurirmoo, Biofarma, Sev2, Recre.
 ## Evidence that show my changes works properly 
 
 Link foto:
-- [Screenshoot View Data Rute](https://drive.google.com/drive/folders/14iK0TVJ1AOszAWDs9erTmsHPgfgQa2uX?usp=share_link)
+- [Screenshoot Table and Migrate Process](https://drive.google.com/drive/folders/1Q4K9h5A7x8op-0CsrubDleQH-omLy_6-?usp=share_link)
 
 Step to reproduce:
-- [Go to menu Konfigurasi -> Data Rute](http://localhost:3000/configuration/data-route)
+- Setup BE Kurirmoo project
+use comand line:
+- make all
+- make run-local
+- check table on database
