@@ -51,10 +51,5 @@ Link foto:
 - [Screenshoot Table and Migrate Process](https://drive.google.com/drive/folders/1Q4K9h5A7x8op-0CsrubDleQH-omLy_6-?usp=share_link)
 
 Step to reproduce:
-- Setup BE Kurirmoo project
-
-Use comand line:
-
-- make all
-- make run-local
-- check table on database
+- run cms kurirmoo
+- [Go to this page](http://localhost:3000/configuration/city-configuration)
