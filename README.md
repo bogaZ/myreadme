@@ -19,11 +19,11 @@ This table will be use to relate with table data pengali.
 
 [T70168](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70168/): Construct UI CMS for List Table city with empty state
 
-
-- Add definition for model MultiplierInCity on swagger.yml
-- Generate model using comand line : make all
-- Add model on file runtime.go on function autoMigration
-- Migrate table using comand line : make run-local
+- Add route for view data city
+- Add file for view data city on view/configuration/data_city
+- Using reusable component to create view data city
+- Create variable for column and data table
+- Change style for background empty data city
 
 ## Type of change
 
