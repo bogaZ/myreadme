@@ -1,12 +1,19 @@
 ## PR Link
 
-[feat/T70052](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70052/)
+[FEAT/T70168](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70168/)
 
 ## Description
 
-Create Table for Data Pengalian Dalam Kota
+Construct UI CMS for List Table city with empty state
 
-USECASE
+- ID Kota
+- Nama Kota
+- Akronim Kota
+- Aksi
+- Search Field
+- Buttom Tambah Kota
+
+Reusable component
 
 This table will be use to relate with table data pengali.
 
