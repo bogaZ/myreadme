@@ -17,7 +17,8 @@ Reusable component
 
 This table will be use to relate with table data pengali.
 
-[T70052](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70052/): Create Table for Data Pengalian Dalam Kota
+[T70168](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70168/): Construct UI CMS for List Table city with empty state
+
 
 - Add definition for model MultiplierInCity on swagger.yml
 - Generate model using comand line : make all
