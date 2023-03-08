@@ -48,7 +48,7 @@ Kurirmoo, Biofarma, Sev2, Recre.
 ## Evidence that show my changes works properly 
 
 Link foto:
-- [Screenshoot Table and Migrate Process](https://drive.google.com/drive/folders/1Q4K9h5A7x8op-0CsrubDleQH-omLy_6-?usp=share_link)
+- [Screenshoot view table data city](https://drive.google.com/file/d/1rwvHxGjnnocB6zrTCtRZxwEoiqb9wbMi/view?usp=share_link)
 
 Step to reproduce:
 - run cms kurirmoo
