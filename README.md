@@ -46,7 +46,7 @@ Kurirmoo, Biofarma, Sev2, Recre.
 ## Evidence that show my changes works properly 
 
 Link foto:
-- [Link Video Test Endpoint Create Route](https://drive.google.com/file/d/1rwvHxGjnnocB6zrTCtRZxwEoiqb9wbMi/view?usp=share_link)
+- [Link Video Test Endpoint Create Route](https://drive.google.com/file/d/17qs685C1A6JF7VpYUgoWz-0ZrhVvgQio/view?usp=share_link)
 
 Step to reproduce:
 - Setup BE Kurirmoo
