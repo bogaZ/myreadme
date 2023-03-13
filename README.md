@@ -1,29 +1,27 @@
 ## PR Link
 
-[FEAT/T70168](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70168/)
+[FEAT/T70007](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70007/)
 
 ## Description
 
-Construct UI CMS for List Table city with empty state
+Create endpoint to Create Route in Admin CMS with field
 
-- ID Kota
-- Nama Kota
-- Akronim Kota
-- Aksi
-- Search Field
-- Buttom Tambah Kota
+- Origin city (Validation data must same with data in table city)
+- Destination city (Validation data must same with data in table city)
+- Route (Option only 2 Utara or Selatan)
+- City Passed (Validation must same with data in table city_passed and can be more than 1)
+- Distance (In Kilometer)
 
-Reusable component
+Tanpa validasi role melalui token
 
-This table will be use to relate with table data pengali.
+[T70007](https://refactory.sev-2.com/source/kurirmoo-be-pre-ip-batch-17/history/feat%252FT70007/): Create endpoint to Create Route in Admin CMS with field
 
-[T70168](https://refactory.sev-2.com/source/kurirmoo-cms-pre-ip-batch-17/history/feat%252FT70168/): Construct UI CMS for List Table city with empty state
-
-- Add route for view data city
-- Add file for view data city on view/configuration/data_city
-- Using reusable component to create view data city
-- Create variable for column and data table
-- Change style for background empty data city
+- Definition endpoint and models on swagger.yml
+- Generate endpoint and models file using make all
+- Create file for handling endpoint create route
+- Implement endpoint on route.go
+- Create validation for proccess store data on table route and city_passed
+- Testing endpoint unsing Postman
 
 ## Type of change
 
@@ -51,5 +49,5 @@ Link foto:
 - [Screenshoot view table data city](https://drive.google.com/file/d/1rwvHxGjnnocB6zrTCtRZxwEoiqb9wbMi/view?usp=share_link)
 
 Step to reproduce:
-- run cms kurirmoo
-- [Go to this page](http://localhost:3000/configuration/city-configuration)
+- Setup BE Kurirmoo
+- [Endpoint URL](http://127.0.0.1:8080/create/route)
